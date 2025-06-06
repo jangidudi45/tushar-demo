@@ -287,9 +287,9 @@ async def upload(bot: Client, m: Message):
     raw_text3 = input3.text
     await input3.delete(True)
     # Default credit message with link
-    credit = "️[𝗧𝘂𝘀𝗵𝗮𝗿](https://t.me/newstudent1885)"
+    credit = "️[𝗔𝗗𝗜𝗧𝗬𝗔⚡️](https://t.me/Maisamyahu)"
     if raw_text3 == '1':
-        CR = '[𝗧𝘂𝘀𝗵𝗮𝗿](https://t.me/newstudent1885)'
+        CR = '[𝗔𝗗𝗜𝗧𝗬𝗔⚡️](https://t.me/Maisamyahu)'
     elif raw_text3:
         try:
             text, link = raw_text3.split(',')
